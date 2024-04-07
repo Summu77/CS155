@@ -4,7 +4,7 @@
 >
 > In addition I have provided a lab report for reference and understanding, but please understand that there may be some unidentified problems.
 
-![image-20240407200333832](D:\桌面\cs155-proj2-main\cs155-proj2-main\assets\image-20240407200333832.png)
+![image-20240407200333832](/assets/image-20240407200333832.png)
 
 
 
