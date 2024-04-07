@@ -1,8 +1,11 @@
 # CS155-project2
 
-> As a personal course lab assignment, the code mainly refers to [jpslvtr/cs155-proj2](https://github.com/jpslvtr/cs155-proj2/tree/main)
+> As a personal course lab assignment, the code mainly refers to [jpslvtr/cs155-proj2](https://github.com/jpslvtr/cs155-proj2/tree/main).
 >
 > In addition I have provided a lab report for reference and understanding, but please understand that there may be some unidentified problems.
+>
+> Some of the knowledge related to this experiment will be updated on the personal website. [summu77](https://summu77.github.io/) (TODO)
+
 
 ![image-20240407200333832](/assets/image-20240407200333832.png)
 
@@ -10,9 +13,9 @@
 
 ## Introduction
 
-> Copied from " CS155: Computer and Network Security  / Project 2: Web Attacks and Defenses  / introduction "
+> Copied from " CS155: Computer and Network Security / Project 2: Web Attacks and Defenses / introduction "
 >
-> [CS155 Computer and Network Security](https://cs155.stanford.edu/)
+> [CS155 Computer and Network Security](https://cs155.stanford.edu/).
 
 In this project, you will construct several attacks against a web application (Part 1), and then update the application to defend against those attacks (Part 2). You will specifically be attacking Bitbar, a Node.js web app that lets users manage Bitbars, a new ultra-safe cryptocurrency. Each user is given 100 Bitbars when they register for the site. They can transfer Bitbars to other users using the web interface, as well as create and view other user profiles.  
 
@@ -40,10 +43,10 @@ For the defense of the seven tasks, I have divided them into the following four 
 
 The defense techniques used in this are:
 
-1. content security checks, dangerous characters for escaping, filtering, banning, etc. (XSS)
+1. Content security checks, dangerous characters for escaping, filtering, banning, etc. (XSS)
 2. CSP content security policy (XSS)
-3. CSRF token technology (CSPF)
-4. Session HMAC authentication technology (CSPF)
+3. CSRF token (CSPF)
+4. Session HMAC authentication (CSPF)
 5. SQL parameterized queries (SQL injection)
 6. Random Corresponding Time Strategy (Timing Attacks)
 
