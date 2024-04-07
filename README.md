@@ -1,6 +1,6 @@
 # CS155-project2
 
-> As a personal course lab assignment, the code mainly refers to [jpslvtr/cs155-proj2: Stanford CS155 Project 2 - Web Security. (github.com)](https://github.com/jpslvtr/cs155-proj2/tree/main)
+> As a personal course lab assignment, the code mainly refers to [jpslvtr/cs155-proj2](https://github.com/jpslvtr/cs155-proj2/tree/main)
 >
 > In addition I have provided a lab report for reference and understanding, but please understand that there may be some unidentified problems.
 
@@ -12,7 +12,7 @@
 
 > Copied from " CS155: Computer and Network Security  / Project 2: Web Attacks and Defenses  / introduction "
 >
-> [CS155 Computer and Network Security (stanford.edu)](https://cs155.stanford.edu/)
+> [CS155 Computer and Network Security](https://cs155.stanford.edu/)
 
 In this project, you will construct several attacks against a web application (Part 1), and then update the application to defend against those attacks (Part 2). You will specifically be attacking Bitbar, a Node.js web app that lets users manage Bitbars, a new ultra-safe cryptocurrency. Each user is given 100 Bitbars when they register for the site. They can transfer Bitbars to other users using the web interface, as well as create and view other user profiles.  
 
@@ -34,7 +34,7 @@ There are seven attack tasks in all:
 
 For the defense of the seven tasks, I have divided them into the following four directions:
 1. defense against XSS attack (Task 1 and Task 6)
-2. defense against CSPF attack (Task 2 ,  Task 3 and Task 4)
+2. defense against CSPF attack (Task 2, Task 3 and Task 4)
 3. defense against SQL injection attack (Task 5)
 4. defending against channel measurement attacks (Task 7)
 
@@ -44,7 +44,7 @@ The defense techniques used in this are:
 2. CSP content security policy (XSS)
 3. CSRF token technology (CSPF)
 4. Session HMAC authentication technology (CSPF)
-5. SQL parameterised queries (SQL injection)
+5. SQL parameterized queries (SQL injection)
 6. Random Corresponding Time Strategy (Timing Attacks)
 
 ## Setup Instructions  
